@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <!--    fonts     -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <!--    fonts end     -->
+    <!--    font-awesome     -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--     font-awesome  end   -->
+    <!--    link style.css      -->
+    <link rel="stylesheet" href="style.css">
+    <!--    link style.css  end    -->
+</head>
+
+<body>
+    <nav id="menu">
+        <ul>
+            <li class="menu-item"><a href="#about">Omnie</a></li>
+            <li class="menu-item"><a href="#ican">Umiejętności</a></li>
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <header id="header">
+        <div id="main-header-text">
+            <h1>Jan <span>Nowak</span></h1> <br>
+            <h2>Front End Developer</h2>
+        </div>
+    </header>
+
+    <section id="conteiner">
+        <h2>O <span>mnie</span></h2>
+        <figure>
+            <img src="img/jan-nowak.jpg" alt="Jan Nowak">
+        </figure>
+        <div id="aboutme">
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum rem ut commodi possimus, et assumenda asperiores illo doloribus sunt aspernatur in nostrum ad neque sequi, similique laborum, quod velit. Suscipit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa possimus corporis perspiciatis cupiditate ipsum nulla ipsa at veniam adipisci. Omnis quibusdam ducimus unde tempore iusto tempora minima cum laborum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus praesentium, placeat labore enim quaerat corporis consequuntur eligendi, dignissimos porro aspernatur cupiditate, illo nobis expedita cum est accusamus aliquid, molestiae.</p>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat debitis illo dolorum fugiat aut. Reprehenderit ut dolores deserunt ducimus, laboriosam debitis est nemo ratione dolorum? Obcaecati, veritatis, nobis. Odit, alias.</p>
+        <figure>
+            <img src="icons/html5.png" alt="html5">
+            <figcaption>HTML5</figcaption>
+        </figure>
+        <figure>
+            <img src="icons/css3.png" alt="css3">
+            <figcaption>css3</figcaption>
+        </figure>
+        <figure>
+            <img src="icons/js.png" alt="js">
+            <figcaption>js</figcaption>
+        </figure>
+        <figure>
+            <img src="icons/jquery.png" alt="jquery">
+            <figcaption>jquery</figcaption>
+        </figure>
+    </section>
+    <div id="portfolio">
+        <h2>Moje <span>portfolio</span></h2>
+        <div id="portfolio-container">
+            <div class="floated" id="item1">
+                <div class="item-mask"></div>
+            </div>
+            <div class="floated" id="item2">
+                <div class="item-mask"></div>
+            </div>
+            <div class="floated" id="item3">
+                <div class="item-mask"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <section id="down">
+        <div id="contact">
+            <h2>Łukasz <span>Badocha</span></h2>
+            <P>ul.Mostowa 6/13 <br> 31-061 Kraków <br><br> tel:606 745 759 <br> e-mail: <a href="mailto:example@example.pl">example@example.pl</a>
+            </P>
+        </div>
+        <div id="form">
+            <form action="https://formspree.io/theballer00@gmail.com" method="POST">
+
+                <input type="text" id="name" name="name" value="Imię i Nazwisko"><br><br>
+
+                <input type="text" id="email" name="Email" value="Email"><br><br>
+
+                <textarea name="Wiadomość" id="message" cols="<3br></3br>0" rows="10" maxlength="300"></textarea>
+                <br><br>
+                <span><input type="submit" value="Wyślij" id="submit"></span>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
