@@ -12,14 +12,18 @@
     <!--     font-awesome  end   -->
     <!--    link style.css      -->
     <link rel="stylesheet" href="style.css">
-    
-<!--    META     -->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--    LINK RESPONSIVE     -->
+    <link rel="stylesheet" href="responsive.css">
+    <!--    META     -->
+    <meta name="viewport" content="width=device-width">
 </head>
 
 <!--     MENU     -->
+
 <body>
     <nav id="menu">
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop">
         <ul>
             <li class="menu-item"><a href="#about">Omnie</a></li>
             <li class="menu-item"><a href="#ican">Umiejętności</a></li>
@@ -27,8 +31,8 @@
             <li class="menu-item"><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
-    
-<!--    HEADER     -->
+
+    <!--    HEADER     -->
     <header id="header">
         <div id="main-header-text">
             <h1>Jan <span>Nowak</span></h1> <br>
@@ -36,7 +40,7 @@
         </div>
     </header>
 
-<!--   ABOUT     -->
+    <!--   ABOUT     -->
     <section id="conteiner">
         <h2>O <span>mnie</span></h2>
         <figure>
@@ -45,12 +49,12 @@
         <div id="aboutme">
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum rem ut commodi possimus, et assumenda asperiores illo doloribus sunt aspernatur in nostrum ad neque sequi, similique laborum, quod velit. Suscipit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa possimus corporis perspiciatis cupiditate ipsum nulla ipsa at veniam adipisci. Omnis quibusdam ducimus unde tempore iusto tempora minima cum laborum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus praesentium, placeat labore enim quaerat corporis consequuntur eligendi, dignissimos porro aspernatur cupiditate, illo nobis expedita cum est accusamus aliquid, molestiae.</p>
         </div>
-<!--        HELPERS     -->
+        <!--        HELPERS     -->
         <div class="clear"></div>
-        
+
     </section>
-    
-<!--    SKILLS     -->
+
+    <!--    SKILLS     -->
     <section id="skills">
         <h2>Skills</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat debitis illo dolorum fugiat aut. Reprehenderit ut dolores deserunt ducimus, laboriosam debitis est nemo ratione dolorum? Obcaecati, veritatis, nobis. Odit, alias.</p>
@@ -71,11 +75,11 @@
             <figcaption>jquery</figcaption>
         </figure>
     </section>
-<!--    PORTFOLIO     BOX     -->
+    <!--    PORTFOLIO     BOX     -->
     <div id="portfolio">
         <h2>Moje <span>portfolio</span></h2>
         <div id="portfolio-container">
-<!--           BOX 1     -->
+            <!--           BOX 1     -->
             <div class="floated" id="item1">
                 <div class="item-mask">
                     <div class="item-mask-bordered">
@@ -84,7 +88,7 @@
                     </div>
                 </div>
             </div>
-<!--           BOX 2     -->
+            <!--           BOX 2     -->
             <div class="floated" id="item2">
                 <div class="item-mask">
                     <div class="item-mask-bordered">
@@ -94,7 +98,7 @@
                     </div>
                 </div>
             </div>
-<!--           BOX 3     -->
+            <!--           BOX 3     -->
             <div class="floated" id="item3">
                 <div class="item-mask">
                     <div class="item-mask-bordered">
@@ -103,14 +107,14 @@
                     </div>
                 </div>
             </div>
-<!--            HELPERS     -->
+            <!--            HELPERS     -->
             <div class="clear"></div>
-            
+
         </div>
     </div>
-<!--    DOWN     -->
+    <!--    DOWN     -->
     <section id="down">
-    <!--    CONTACT    -->
+        <!--    CONTACT    -->
         <div id="contact">
             <h2>Łukasz <span>Badocha</span></h2>
             <p>ul.Mostowa 6/13 <br> 31-061 Kraków <br><br> tel:606 745 759 <br> e-mail: <a href="mailto:example@example.pl">example@example.pl</a>
@@ -123,7 +127,7 @@
                 <a href="http://store.steampowered.com/"><i class="fa fa-steam" aria-hidden="true"></i></a>
             </div>
         </div>
-    <!--    FORM    -->
+        <!--    FORM    -->
         <div id="form">
             <form action="https://formspree.io/theballer00@gmail.com" method="POST">
 
@@ -136,9 +140,9 @@
                 <span><input type="submit" value="Wyślij" id="submit"></span>
             </form>
         </div>
-<!--     HELPERS     -->
+        <!--     HELPERS     -->
         <div class="clear"></div>
-<!--        FOOTER     -->
+        <!--        FOOTER     -->
     </section>
     <div id="footer">
         <footer>Corporating Jan Nowak</footer>

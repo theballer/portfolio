@@ -72,7 +72,10 @@ h2 {
 #menu ul li a:hover {
     text-decoration: underline;
 }
-
+#menu .toggle, [id=drop] {
+    display: none;
+}
+}
 
 /* ABOUT */
 
@@ -212,7 +215,6 @@ span {
 #form>span {
     background: lightgreen;
 }
-
 
 /* HELPERS */
 

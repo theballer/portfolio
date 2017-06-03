@@ -1,1 +1,74 @@
-@media 
+@media all and (max-width: 1500px) {
+    #header {
+        width: 100%%;
+    }
+}
+
+@media all and (max-width: 1500px) {
+    #menu .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: lightgreen;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    #menu ul {
+        display: none;
+    }
+    #menu #drop:checked+ul {
+        display: block;
+    }
+    #menu>ul>li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #portfolio #portfolio-container #item1 {
+        width: 40%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #portfolio #portfolio-container #item2 {
+        width: 40%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #portfolio #portfolio-container #item3 {
+        width: 80%;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    #down {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #contact {
+        display: block;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #form {
+        display: block;
+        width: 30%;
+    }
+}
