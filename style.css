@@ -160,6 +160,13 @@ section {
     transition: all .5s ease-in-out;
     color: aliceblue;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item-mask-bordered {
+    height: 100%;
+    border: 1px solid #fff;
 }
 
 #portfolio #portfolio-container .floated .item-mask span {
@@ -191,7 +198,6 @@ span {
 }
 
 #down {
-/*    width: 100%;*/
     height: 500px;
     background-color: #213b50;
 }
@@ -214,11 +220,7 @@ span {
     clear: both;
 }
 
-#submit {
-    background: lightgreen;
-    width: 100px;
-    float: right;
-}
+/*    CONTACT      */
 
 #contact {
     padding: 0px;
@@ -243,6 +245,14 @@ span {
     font-size: 20px;
 }
 
+/*    FORM     */
+
+#submit {
+    background: lightgreen;
+    width: 100px;
+    float: right;
+}
+
 input {
     background: #226;
     width: 600px;
@@ -263,15 +273,7 @@ textarea {
     clear: both;
 }
 
-#social {
-    padding: 50px;
-}
-
-#social i {
-    color: aliceblue;
-    padding: 20px;
-    font-size: 50px;
-}
+/*    FOOTER     */
 
 #footer {
     position: absolute;
@@ -285,23 +287,30 @@ textarea {
 }
 
 
-#social .fa\fa-facebook-square {
-    position: relative;
+/* SOCIAL MEDIA */
+
+#social {
+    padding: 50px;
 }
 
-#social .fa\fa-facebook-square .hidden {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    opacity: 0;
-    transition: all .5s ease-in-out;
-    color: aliceblue;
+#social a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    box-sizing: border-box;
     text-align: center;
+    line-height: 50px;
 }
 
-#social .fa\fa-facebook-square .hidden:hover {
-    opacity: 1;
+#social a i {
+    color: #fff;
+}
+
+#social a:hover {
+    background-color: #fff;
+}
+
+#social a:hover i {
+    color: #226;
 }
